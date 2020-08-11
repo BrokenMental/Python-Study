@@ -1,7 +1,7 @@
 from urllib.parse import quote_plus
 from bs4 import BeautifulSoup
-#selenium : web test에 사용되는 프레임워크, webdriver API를 통해 렌더링이 완료된 후의 DOM 결과물에 접근할 수 있음
-#브라우저 제어가 필요
+#selenium : web test에 사용되는 프레임워크, webdriver API를 통해 렌더링이 완료된 후의 DOM 결과물에 접근할 수 있음(브라우저 제어가 필요)
+#pip install selenium
 #직접 브라우저를 제어하기 때문에 header값 없이도 크롤링이 가능
 #여기선 Chrome 사용 webdriver 설치 : https://chromedriver.chromium.org/downloads
 from selenium import webdriver
